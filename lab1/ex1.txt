@@ -1,0 +1,24 @@
+PART 1
+A]
+warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+    5 |         printf("%d,%d",a);
+      |                    ~^
+      |                     |
+      |                     int
+
+B]
+warning: too many arguments for format [-Wformat-extra-args]
+    5 | printf("%d",a,b);
+      |        ^~~~
+
+
+
+
+ PART 2
+      warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+    5 | printf("%d,%f",a,b);
+      |            ~^    ~
+      |             |    |
+      |             |    int
+      |             double
+      |            %d

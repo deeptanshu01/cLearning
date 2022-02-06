@@ -1,0 +1,9 @@
+Datatype         Format Specifier        Bytes
+signed char             %c,%d             1
+unsigned char           %c,%d             1
+int                     %d                4 
+unsigned int            %d,%u             4
+short                   %d                2
+unsigned                %u                4 
+long                    %ld               8
+unsigned long           %lu               8
